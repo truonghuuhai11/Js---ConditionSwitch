@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cấu trúc rẽ nhánh switch</title>
+</head>
+
+<body>
+    <h1>Chương trình kiểm tra và tính toán</h1>
+
+    <h2>Kiểm tra số nguyên dương/âm</h2>
+    <input type="number" id="numCheck" placeholder="Nhập số nguyên">
+    <button onclick="kiemTraSo()">Kiểm tra</button>
+    <p id="ketQuaSo"></p>
+
+    <h2>Kiểm tra chia hết cho 3 hoặc 5</h2>
+    <input type="number" id="numChia" placeholder="Nhập số nguyên n">
+    <button onclick="kiemTraChia()">Kiểm tra</button>
+    <p id="ketQuaChia"></p>
+
+    <h2>In số ngày của tháng</h2>
+    <input type="number" id="thang" placeholder="Nhập tháng (1-12)">
+    <button onclick="inSoNgay()">In số ngày</button>
+    <p id="ketQuaThang"></p>
+
+    <h2>Giải phương trình bậc 2</h2>
+    <h3>Phương trình bậc 2 có dạng: ax2+bx+c=0.</h3>
+    <input type="number" id="soA" placeholder="Nhập số a">
+    <input type="number" id="soB" placeholder="Nhập số b">
+    <input type="number" id="soC" placeholder="Nhập số c">
+    <button onclick="giaiPhuongTrinhBacHai()">Giải phương trình</button>
+    <p id="ketQuaPT"></p>
+
+    <h2>Kiểm tra tam giác</h2>
+    <input type="number" id="canhA" placeholder="Nhập cạnh a">
+    <input type="number" id="canhB" placeholder="Nhập cạnh b">
+    <input type="number" id="canhC" placeholder="Nhập cạnh c">
+    <button onclick="kiemTraTamGiac()">Kiểm tra tam giác</button>
+    <p id="ketQuaTG"></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
